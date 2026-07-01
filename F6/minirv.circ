@@ -352,18 +352,14 @@
     <comp lib="0" loc="(1720,1360)" name="Constant">
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(1720,270)" name="Tunnel">
-      <a name="label" val="RAM_data"/>
-      <a name="width" val="32"/>
-    </comp>
-    <comp lib="0" loc="(1720,270)" name="Tunnel">
-      <a name="label" val="RAM_data"/>
-      <a name="width" val="32"/>
-    </comp>
     <comp lib="0" loc="(1730,1070)" name="Bit Extender">
       <a name="in_width" val="12"/>
       <a name="out_width" val="32"/>
       <a name="type" val="zero"/>
+    </comp>
+    <comp lib="0" loc="(1730,270)" name="Tunnel">
+      <a name="label" val="RAM_data"/>
+      <a name="width" val="32"/>
     </comp>
     <comp lib="0" loc="(1750,1160)" name="Probe">
       <a name="appearance" val="NewPins"/>
@@ -896,7 +892,7 @@
       <a name="label" val="RAM_mem_adress"/>
       <a name="width" val="32"/>
     </comp>
-    <comp lib="0" loc="(2870,660)" name="Tunnel">
+    <comp lib="0" loc="(2880,670)" name="Tunnel">
       <a name="label" val="RAM_mem_adress"/>
       <a name="width" val="32"/>
     </comp>
@@ -1356,29 +1352,29 @@
       <a name="font" val="SansSerif bold 18"/>
       <a name="text" val="Operation"/>
     </comp>
-    <comp lib="9" loc="(2559,971)" name="Text">
+    <comp lib="9" loc="(2555,970)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="sw"/>
     </comp>
-    <comp lib="9" loc="(2568,1206)" name="Text">
+    <comp lib="9" loc="(2565,1205)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="sb"/>
     </comp>
-    <comp lib="9" loc="(2587,582)" name="Text">
+    <comp lib="9" loc="(2585,580)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="lbu"/>
     </comp>
-    <comp lib="9" loc="(2619,338)" name="Text">
+    <comp lib="9" loc="(2615,335)" name="Text">
       <a name="color" val="#0000ff"/>
       <a name="text" val="lw"/>
+    </comp>
+    <comp lib="9" loc="(2625,180)" name="Text">
+      <a name="color" val="#0000ff"/>
+      <a name="text" val="lui"/>
     </comp>
     <comp lib="9" loc="(2625,75)" name="Text">
       <a name="color" val="#0000fa"/>
       <a name="text" val="Add"/>
-    </comp>
-    <comp lib="9" loc="(2627,184)" name="Text">
-      <a name="color" val="#0000ff"/>
-      <a name="text" val="lui"/>
     </comp>
     <comp lib="9" loc="(580,1400)" name="Text">
       <a name="color" val="#0000ff"/>
@@ -1591,7 +1587,7 @@
     <wire from="(1650,1340)" to="(1720,1340)"/>
     <wire from="(1660,1030)" to="(1820,1030)"/>
     <wire from="(1660,1070)" to="(1690,1070)"/>
-    <wire from="(1700,270)" to="(1720,270)"/>
+    <wire from="(1700,270)" to="(1730,270)"/>
     <wire from="(1710,1230)" to="(1750,1230)"/>
     <wire from="(1710,1260)" to="(1750,1260)"/>
     <wire from="(1730,1070)" to="(1770,1070)"/>

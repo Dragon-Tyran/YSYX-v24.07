@@ -1,21 +1,21 @@
 ### 类型
 
-> ![](Pasted%20image%2020260701134118.png)
-> ![](Pasted%20image%2020260701134508.png)
+> ![](attachments/Pasted%20image%2020260701134118.png)
+> ![](attachments/Pasted%20image%2020260701134508.png)
 ### `add`指令
 `R型`
-> ![](Pasted%20image%2020260701132649.png)
+> ![](attachments/Pasted%20image%2020260701132649.png)
 - **作用**：rd = rs1 + rs2
 
 ### `lui` 指令
-> ![](Pasted%20image%2020260701120614.png)
-> ![](Pasted%20image%2020260701134528.png)
+> ![](attachments/Pasted%20image%2020260701120614.png)
+> ![](attachments/Pasted%20image%2020260701134528.png)
 - **作用**：把一个 20 位立即数放到目标寄存器的**高 20 位**，低 12 位强制清零。
 
 
 ### 其他四条指令
 
-> ![](Pasted%20image%2020260701133622.png)
+> ![](attachments/Pasted%20image%2020260701133622.png)
 
 
 
